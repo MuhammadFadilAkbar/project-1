@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>halaman login</title>
+        <link rel="stylesheet" href="ceesesLogin.css">
+        <script type="text/javascript" src='validasi.js'></script>
+    </head>
+
+    <body>
+        <div class="form_wrapper">
+            <div class="form_container">
+                <div class="title_container">
+                    <h2><center>Login<center></h2>
+                </div>
+                <div class="row_clearfix">
+                    <div class="ok">
+                        <form name="login" action="Home.html" onsubmit="return validateForm()">
+
+                            <div class="kotak_input">
+							<p>Username</p>
+                                <input type="text" name="nama" placeholder="Masukkan Username"  />
+                            </div>
+
+                            <div class="kotak_input">
+							<p>Password</p>
+                                <input type="password" name="Pass" placeholder="Masukkan Password"  />
+                            </div>
+
+                            
+                            <input class="button" type="submit" value="Submit" />
+                            
+
+                            <p>Jika belum memiliki akun, klik</p>
+                            <a href="registrasi.html"> Register </a> 
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

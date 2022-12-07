@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>halaman registrasi</title>
+        <link rel="stylesheet" href="ceeses.css">
+        <script type="text/javascript" src='tampildata.js'></script>
+    </head>
+
+    <body>
+        <div class="form_wrapper">
+            <div class="form_container">
+                <div class="title_container">
+                    <h2><center>Form Registrasi<center></h2>
+                </div>
+                <div class="row_clearfix">
+                    <div class="ok">
+                        <form>
+
+                            <div class="kotak_input"> 
+							<p>Email</p>
+                                <input id="email" type="email" name="Email" placeholder="email"  />
+                            </div>
+
+                            <div class="kotak_input">
+							<p>Nama</p>
+                                <input id="nama" type="text" name="Nama Lengkap" placeholder="nama lengkap..."  />
+                            </div>
+
+                            <div class="pilih">
+							<p>Kota</p>
+                                <select  id="kota">
+                                    <option>Pilih Kab/Kota</option>
+                                    <option>Sleman</option>
+                                    <option>Gunung Kidul</option>
+                                    <option>Bantul</option>
+                                    <option>Kulon Progo</option>
+									<option>Magelang</option>							
+                                </select>
+                                <div class="select_arrow"></div>
+                            </div>
+
+                            <div class="kotak_input_besar">
+							<p>Alamat</p>
+                                <textarea  id="alamat" rows="5" cols="43" placeholder="alamat"></textarea>
+                            </div>
+
+                            <input class="button" type="button" onclick="klik()" value="Submit" />
+                        </form>
+                    </div>
+                </div>
+                <div id="output_container">
+                    <p class="outing" id="output"></p>
+                </div>
+            </div>
+        </div>
+        <script>
+            
+        </script>
+    </body>
+</html>
